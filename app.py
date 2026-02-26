@@ -2,8 +2,9 @@ import os
 import sys
 import time
 from database import Database
-from employee_manager import EmployeeManager
-from schedule_manager import ScheduleManager
+from employee import EmployeeManager
+from schedule import ScheduleManager
+from pos import PointOfSale
 import config
 
 
